@@ -1,6 +1,4 @@
 
-var list = [];
-
 var people = [
     'mamma ',
     'pappa ',
@@ -11,4 +9,12 @@ var people = [
     'Hugo '
 ];
 
-document.getElementById("main").innerHTML = people.length;
+people.push('TuyVi');
+
+document.getElementById("main").innerHTML = people;
+
+
+
+for(var i = 0; i < people.length; i++) {
+    document.getElementById("outPutList").innerHTML += '<div>' + people[i] + '</div>';}
+
