@@ -11,4 +11,4 @@ var people = [
     'Hugo '
 ];
 
-document.getElementById("main").innerHTML = people;
+document.getElementById("main").innerHTML = people.length;
